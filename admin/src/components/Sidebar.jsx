@@ -27,7 +27,7 @@ const Sidebar = () => {
                 isActive ? "bg-[#F2F3FF] border-e-4 border-primary" : ""
               } `
             }
-            to={"/admin-appointments"}
+            to={"/all-appointments"}
           >
             <img src={assets.appointment_icon} alt="" />
             <p>Appointment</p>

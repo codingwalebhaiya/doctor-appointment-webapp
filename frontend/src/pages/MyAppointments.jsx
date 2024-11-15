@@ -29,9 +29,7 @@ const MyAppointments = () => {
 
   const slotDateFormate = (slotDate) => {
     const dateArray = slotDate.split("_");
-    return (
-      dateArray[0] + " " + months[Number(dateArray[1])] + " " + dateArray[2]
-    );
+    return dateArray[0] + " " + months[Number(dateArray[1])] + " " + dateArray[2]
   };
 
   // we have to run this function whenever the my appointment space gets loaded
