@@ -23,7 +23,10 @@ const Navbar = () => {
         src={assets.logo}
         alt="logo"
       /> */}
-      <h1 className="text-blue-500 font-bold ">Talk <span className="text-red-400 font-semibold">To</span> Doctor</h1>
+      <NavLink to={'/'} >
+        <h1 className="text-blue-500 font-bold ">Talk <span className="text-red-400 font-semibold">To</span> Doctor</h1>
+      </NavLink>
+      
       <ul className="hidden md:flex items-start gap-5 font-medium">
         <NavLink to="/">
           <li className="py-1">HOME</li>
